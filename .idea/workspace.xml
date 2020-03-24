@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f42f84-ee63-477c-ae49-bf4b5ac44ca9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresJava/app.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyArrayListAbhi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayListAbhi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
