@@ -1,0 +1,57 @@
+// https://practice.geeksforgeeks.org/problems/java-arraylist/0
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class AddValueInArrayList {
+
+    public static void main(String[] args) {
+        ArrayList<Integer> intArr = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+
+        int t, q, n, r;
+//        First line of input 'T'
+        t = scanner.nextInt();
+
+        while (t != 0) {
+//            First line of test case input 'N' and 'Q'
+            n = scanner.nextInt();
+            q = scanner.nextInt();
+
+//            Second line of Test Case
+//            Taking 'n' number of integers
+            for (int i = 0; i < n; i++) {
+                int in = scanner.nextInt();
+                intArr.add(in);
+            }
+
+//            Third line of test case;
+//            if the value of 'Q' is 1, then input 'P' and 'R'
+//            insert element 'R' in list at index 'P'
+//            if Q is 2, then find last found index of  element 'P'
+            if (q == 1) {
+                int p = scanner.nextInt();
+                r = scanner.nextInt();
+                intArr.add(p, r);
+//                System.out.println(intArr);
+                for(int i =0; i<= intArr.size();i++)
+                    System.out.print(intArr.get(i) + " ");
+                    System.out.println("");
+            } else {
+                /*Find location of element*/
+                int p = scanner.nextInt();
+                if (intArr.contains(p)) {
+                 /*   for (int i = intArr.size(); i > -1; i--) {
+                        if (p == intArr.get(i))
+                            System.out.println(i);
+                    }*/
+                    System.out.println(intArr.lastIndexOf(p));
+                } else System.out.println(-1);
+            }
+
+            t--;
+            intArr.clear();
+
+        }
+    }
+}
