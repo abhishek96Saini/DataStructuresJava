@@ -5,7 +5,7 @@ Query 1includes two integers p and r.Which means add a value r at and index p in
 and print the whole updated ArrayList. Query 2includes one integer p.In this query print the index at which the value
 p is last found in the ArrayList.If the value p is not found int he ArrayList then print"-1".
 
-NOTE:Assume 0based indexing
+NOTE:Assume 0 based indexing
 
 Input:
 First line of input file contains an integer T,denoting the number of test cases.Then T test case follow.
