@@ -1,4 +1,20 @@
-// https://practice.geeksforgeeks.org/problems/java-arraylist/0
+/*https://practice.geeksforgeeks.org/problems/java-arraylist/0
+
+Given a ArrayList of n elements and a integer q defining the query number(which will be either 1or 2):
+Query 1includes two integers p and r.Which means add a value r at and index p in the ArrayList
+and print the whole updated ArrayList. Query 2includes one integer p.In this query print the index at which the value
+p is last found in the ArrayList.If the value p is not found int he ArrayList then print"-1".
+
+NOTE:Assume 0based indexing
+
+Input:
+First line of input file contains an integer T,denoting the number of test cases.Then T test case follow.
+First line of each test case contains two integer n and q(space separated).
+Second Line of each test case consists of n spaced integers.
+Third line consists of 2integers if the value of q is 1otherwise consists of a single integer.
+
+Output:
+For each test case,print required output.*/
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -34,9 +50,9 @@ public class AddValueInArrayList {
                 r = scanner.nextInt();
                 intArr.add(p, r);
 //                System.out.println(intArr);
-                for(int i =0; i<= intArr.size();i++)
+                for (int i = 0; i <= intArr.size(); i++)
                     System.out.print(intArr.get(i) + " ");
-                    System.out.println("");
+                System.out.println("");
             } else {
                 /*Find location of element*/
                 int p = scanner.nextInt();
