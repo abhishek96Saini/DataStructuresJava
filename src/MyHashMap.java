@@ -17,7 +17,7 @@ public class MyHashMap {
 
 //        insert (key, value) only if not already existing
         strIntHashMap.putIfAbsent(33,"Lakshay");;
-        strIntHashMap.putIfAbsent(33,"Lakshay");;
+        strIntHashMap.putIfAbsent(33,"Lakshay2233");;
         strIntHashMap.putIfAbsent(34,"Lakshay2");;
 
         System.out.println(strIntHashMap);
